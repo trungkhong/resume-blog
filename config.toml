@@ -1,0 +1,258 @@
+baseURL = "http://trungkhong.com/"
+languageCode = "en-us"
+title = "TrungKhong Blog"
+theme = "devresume"
+
+[params]
+    author = "Trung Khong"
+    description = "Software Engineer"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Trung Khong"
+        tagline = "Senior Software Engineer"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Ho Chi Minh City"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "0975294733"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "trungkhong92@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "www.trungkhong.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "JavaScript/React/Vue"
+        [[params.skills.list.items]]
+        details = "Golang/PHP"
+        [[params.skills.list.items]]
+        details = "Node.js"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Degree in Computer Enginering"
+        university = "University Of Infomation Technology"
+        dates = "2010 - 2015"
+
+
+
+
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "TOEIC"
+        body = "605 TOEIC Certificate"
+        date = "2019"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Intermediate"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Music"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "I used to work as a web developer with PHP and some front-end technology to handle some problems in commercial and business. Now I am a Backend Developer with Golang to handle backend site API Restful with expecting to make an application will faster and more scalable, flexible. I hope to join a big project to learn more and contribute my ability and ambition to make the company and myself better day by day to handle problems of the world by coding!"
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Senior Software Engineer"
+        dates = "2017 - Present"
+        company = "myScoop"
+        details = "Work as a backend developer to handle API and some devOps part to deploy application to VPS and Google Cloud Platform."
+        [[params.experience.list.items]]
+        details = "Start with Laravel API."
+        [[params.experience.list.items]]
+        details = "Create some microservices with NodeJs support Sharing and Account managerment."
+        [[params.experience.list.items]]
+        details = "Convert PHP API to Golang to make it faster, more effective and more scalable."
+
+        [[params.experience.list]]
+        title = "Lead Web Developer"
+        dates = "2015 - 2017"
+        company = "HOPEE"
+        details = "Work as a leader of 3 deverlopers to develop some outsourcing project with PHP, CodeIgniter, Laravel, front-end tasks."
+        [[params.experience.list.items]]
+        details = "Join some peoject of Japanese customer about Laravel, front-end part - handle html, css, js."
+        [[params.experience.list.items]]
+        details = "Build Wordpress site project about haircut shop."
+        [[params.experience.list.items]]
+        details = "Build own product viecnhatui.com."
+        
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Hopspital managerment"
+        meta = "Private Source"
+        tagline = "Manage client account and process of a hospital in Japan with Laravel."
+        tech = "PHP(Laravel), mySQL, Js"
+
+        [[params.projects.list]]
+        title = "Manage Business company of District"
+        meta = "Private Source"
+        tagline = "Buid application support business company can find infomation of a company and check about status taxes, registration, ... with Google Maps"
+        tech = "PHP(CodeIgniter), mySQL, Google Maps API, Js"
+
+        [[params.projects.list]]
+        title = "Viec Nha Tui"
+        meta = "Private Source"
+        tagline = "Use CodeIgniter to build a project like marketplace to shop and customer can find each others with services about Home: fix Air Conditioner, Toilet handle, Clean house,..."
+        tech = "PHP(CodeIgniter), NodeJs(ExpressJS), Socket.IO, mySQL, Google Maps API, Js, Redis"
+
+        [[params.projects.list]]
+        title = "myScoop"
+        meta = "Private Source"
+        tagline = "Laravel, Nodejs (ExpressJS), Golang, Java Handle a lot of services to support a social network."
+        tech = "Golang(API), PHP(Laravel), NodeJs(ExpressJS), Java, Docker, Kubernetes, GCP, mySQL, Redis, Google Maps API, Js"
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Running, Listen to music, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/trungkhong"
+        title = "trungkhong"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/trungkhong"
+        title = "trungkhong"
+        [[params.social.list]]
+        icon = "fab fa-facebook-square"
+        url = "//fb.com/khongxuantrung"
+        title = "@khongxuantrung"
+
+
+
+
+
